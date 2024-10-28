@@ -36,7 +36,7 @@ def upload_to_gcs(bucket_name, source_file_name, destination_blob_name):
 
 
 def main():
-    url = 'https://671c3d3d2c842d92c38271ad.mockapi.io/api/v1/sales'
+    url = 'https://[project_secret].mockapi.io/api/v1/sales'
     data = request_data(url)
 
     if data:
