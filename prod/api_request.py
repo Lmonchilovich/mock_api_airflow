@@ -5,8 +5,8 @@ from google.cloud import storage
 from datetime import date  # Import only 'date' from 'datetime'
 
 # Google cloud Credentials
-project_id = 'clean-circle-391119'
-bucket_name = 'thd_de_mock_api_data'
+project_id = 'YOUR_PROJECT_ID'
+bucket_name = 'YOUR_BUCKET_NAME'
 # Use 'date.today()' for the current date and ensure there's no 'datetime' reference
 destination_blob_name = f"sales_data_{date.today().strftime('%Y%m%d')}.csv"
 
